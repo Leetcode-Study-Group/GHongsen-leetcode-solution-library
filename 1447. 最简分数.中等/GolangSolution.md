@@ -35,22 +35,22 @@ func gcd(a, b int) int {
 
 ```java
 func simplifiedFractions(n int) (ans []string) {
-  // 循环所有分母小于n的分数
+  // 循环出所有分母小与n的分数
 	for denominator := 2; denominator <= n; denominator++ {
 		for numerator := 1; numerator < denominator; numerator++ {
-      // 如果两个数最大公约数为1加入结果集
+      // 如果最大公约数为1则加入结果集
 			if gcd(numerator, denominator) == 1 {
-				ans = append(ans, strconv.Itoa(numerator)+"/"+strconv.Itoa(denominator))
+				ans = append(ans, fmt.Sprintf("%d/%d", numerator, denominator))
 			}
 		}
 	}
 	return
 }
 // 欧几里得算法
-func gcd(a, b int) int {
-	for a != 0 {
-		a, b = b%a, a
+func gcd(numerator, denominator int) int {
+	for numerator != 0 {
+		numerator, denominator = denominator%numerator, numerator
 	}
-	return b
+	return denominator
 }
 ```
