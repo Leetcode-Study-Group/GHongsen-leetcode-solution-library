@@ -35,10 +35,10 @@ func gcd(a, b int) int {
 
 ```java
 func simplifiedFractions(n int) (ans []string) {
-  // 循环出所有分母小与n的分数
+	// 循环出所有分母小与n的分数
 	for denominator := 2; denominator <= n; denominator++ {
 		for numerator := 1; numerator < denominator; numerator++ {
-      // 如果最大公约数为1则加入结果集
+			// 如果最大公约数为1则加入结果集
 			if gcd(numerator, denominator) == 1 {
 				ans = append(ans, fmt.Sprintf("%d/%d", numerator, denominator))
 			}
