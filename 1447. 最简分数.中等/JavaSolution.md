@@ -18,7 +18,7 @@ for (int denominator = 2; denominator <= n; denominator++) {
 
 剩下的只要求出当前分子分母组成的分数是否是 **最简** 分数（即判断两个数的最大公约数是否为1）；
 
-利用递归实现 「欧几里得算法」 求出两数最大公约数是否为1；
+利用递归实现 「[欧几里得算法](./算法/欧几里得算法.md)」 求出两数最大公约数是否为1；
 
 ```java
 public int gcd(int denominator, int numerator) {
