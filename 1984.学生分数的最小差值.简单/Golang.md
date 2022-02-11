@@ -6,7 +6,7 @@
 
 **最终代码：**
 
-```java
+```go
 func minimumDifference(nums []int, k int) (ans int) {
 	ans = math.MaxInt32
 	// 排序
