@@ -20,7 +20,7 @@
 
 **示例 2：**
 
-![enclaves2](../resources/img/1020.飞地的数量-1.jpeg)
+![enclaves2](../resources/img/1020.飞地的数量-2.jpeg)
 
 ```
 输入：grid = [[0,1,1,0],[0,0,1,0],[0,0,1,0],[0,0,0,0]]  
