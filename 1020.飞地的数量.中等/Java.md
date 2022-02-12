@@ -28,7 +28,7 @@ public int numEnclaves(int[][] grid) {
 public void dfs(int i, int j, int[][] grid) {
   // 验证当前坐标是否有效
   if (i >= 0 && i < grid.length && j >= 0 && j < grid[0].length && grid[i][j] == 1) {
-    // 沉没陆地为海洋 方便统计
+    // 沉没陆地为海洋，方便统计；同时也隔绝了已被记录的陆地被重复操作
     grid[i][j] = 0;
     // 向四方扩散
     dfs(i - 1, j, grid); // 上
