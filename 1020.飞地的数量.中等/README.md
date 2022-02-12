@@ -8,7 +8,7 @@
 
 **示例 1：**
 
-![](/Users/guohongsen/Downloads/enclaves1.jpeg)
+![](../resources/img/1020.飞地的数量-1.jpeg)
 
 ```
 输入：grid = [[0,0,0,0],[1,0,1,0],[0,1,1,0],[0,0,0,0]]  
@@ -20,7 +20,7 @@
 
 **示例 2：**
 
-![enclaves2](/Users/guohongsen/Downloads/enclaves2.jpeg)
+![enclaves2](../resources/img/1020.飞地的数量-1.jpeg)
 
 ```
 输入：grid = [[0,1,1,0],[0,0,1,0],[0,0,1,0],[0,0,0,0]]  
