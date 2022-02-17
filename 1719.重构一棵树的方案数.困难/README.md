@@ -1,9 +1,9 @@
 ## 1719.重构一棵树的方案数-<font color=#EF4743>困难</font>
 
-给你一个数组 `pairs` ，其中 `pairs[i] = [xi, yi]` ，并且满足：
+给你一个数组 `pairs` ，其中 `pairs[i] = [x<sub>i</sub>, yi]` ，并且满足：
 
 `pairs` 中没有重复元素
-xi < y<sub>i</sub>
+<code>xi < y<sub>i</sub></code>
 令 ways 为满足下面条件的有根树的方案数：
 
 树所包含的所有节点值都在 pairs 中。
