@@ -8,32 +8,32 @@
 
 **示例 1：**
 
-```
-输入：text = "nlaebolko"  
-输出：1  
-```
+<pre>
+<b>输入：</b>text = "nlaebolko"  
+<b>输出：</b>1  
+</pre>
 
 <br>
 
 **示例 2：**
 
-```
-输入：text = "loonbalxballpoon"  
-输出：2  
-```
+<pre>
+<b>输入：</b>text = "loonbalxballpoon"  
+<b>输出：</b>2  
+</pre>
 
 <br>
 
 **示例 3：**
 
-```
-输入：text = "leetcode"  
-输出：0  
-```
+<pre>
+<b>输入：</b>text = "leetcode"  
+<b>输出：</b>0  
+</pre>
 
 <br>
 
 **提示：**
 
-* `1 <= text.length <= 10^4`
+* <code>1 <= text.length <= 10<sup>4</sup></code>
 * `text` 全部由小写英文字母组成
