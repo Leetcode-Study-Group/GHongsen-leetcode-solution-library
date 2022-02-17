@@ -8,7 +8,7 @@
 
 **示例 1：**
 
-![](../resources/img/1189.“气球” 的最大数量-1.jpeg)
+![](../resources/img/1189.“气球”的最大数量-1.jpeg)
 
 <pre>
 <b>输入：</b>text = "nlaebolko"  
