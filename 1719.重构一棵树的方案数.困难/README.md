@@ -24,11 +24,11 @@
 
 **示例 1：**
 
-<code style="display: inline;">
+<pre><code style="display: inline;">
 输入：n = 2  
 输出：["1/2"]  
 解释："1/2" 是唯一一个分母小于等于 2 的最简分数。
-</code>
+</code></pre>
 
 <br>
 
