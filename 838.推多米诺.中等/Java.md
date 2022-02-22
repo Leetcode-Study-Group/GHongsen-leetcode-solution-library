@@ -25,7 +25,7 @@ public String pushDominoes(String dominoes) {
 			}
 		}
 		start = end;
-    i = endIndex + 1;
+		i = endIndex + 1;
 	}
 	return String.valueOf(chars);
 }
