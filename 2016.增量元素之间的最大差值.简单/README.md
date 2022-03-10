@@ -24,7 +24,7 @@
 <b>输入：</b>nums = [9,4,3,2]
 <b>输出：</b>-1
 <b>解释：</b>
-不存在同时满足 i < j 和 nums[i] < nums[j] 这两个条件的 i, j 组合。
+不存在同时满足 i &lt; j 和 nums[i] &lt; nums[j] 这两个条件的 i, j 组合。
 </pre>
 
 <br>
