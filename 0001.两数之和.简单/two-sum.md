@@ -66,9 +66,8 @@ reprintPolicy: cc_by # 文章转载规则， 可以是 cc_by, cc_by_nd, cc_by_sa
 - **只会存在一个有效答案**
 
 **进阶：** 你可以想出一个时间复杂度小于 <code>O(n<sup>2</sup>)</code> 的算法吗？
-
+## 做题思路
 ## 最终代码
-
 ### Java
 
 ```java
