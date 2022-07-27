@@ -20,7 +20,7 @@ keywords: # 文章关键字
 reprintPolicy: cc_by # 文章转载规则， 可以是 cc_by, cc_by_nd, cc_by_sa, cc_by_nc, cc_by_nc_nd, cc_by_nc_sa, cc0, noreprint 或 pay 中的一个
 ---
 
-## [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)-<font color=#5AB726>简单</font>
+## [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)-<font color=#5AB726>简单!</font>
 
 给定一个整数数组 `nums` 和一个整数目标值 `target`，请你在该数组中找出 **和为目标值** *`target`* 的那 **两个** 整数，并返回它们的数组下标。
 
